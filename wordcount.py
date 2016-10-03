@@ -1,4 +1,5 @@
-my_text= open("twain.txt")
+import sys
+my_text= open(sys.argv[1])
 count_dictionary = {}
 import string
 exclude = set(string.punctuation)
